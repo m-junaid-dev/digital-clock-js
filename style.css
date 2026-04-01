@@ -1,0 +1,50 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: #1a1a1a;
+            padding: 40px 60px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid #333;
+        }
+
+        .time {
+            font-size: 100px;
+            font-weight: 600;
+            color: #00ff88;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 5px;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+        }
+
+        .ampm {
+            font-size: 24px;
+            color: #888;
+            margin-left: 15px;
+            font-weight: normal;
+        }
+
+        /* Optional: Date bhi add kar lein to achha lagega */
+        .date {
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+            letter-spacing: 2px;
+            font-family: 'Courier New', monospace;
+        }
+    
